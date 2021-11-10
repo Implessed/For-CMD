@@ -20,7 +20,7 @@ while _G.Jars and game.PlaceId == 536102540 do
     wait(0.6)
     
     local A_1 = {
-        [1] = "Jars"
+        [1] = "Beans"
     }
     local Event = game:GetService("Players").LocalPlayer.Backpack.ServerTraits.ChatAdvance
     Event:FireServer(A_1)
@@ -48,7 +48,7 @@ while _G.Jars and game.PlaceId == 536102540 do
     wait(0.6)
     
     local A_1 = {
-        [1] = "Red"
+        [1] = "Blue"
     }
     local Event = game:GetService("Players").LocalPlayer.Backpack.ServerTraits.ChatAdvance
     Event:FireServer(A_1)
