@@ -1,12 +1,22 @@
+local colors = {Color3.fromRGB(0, 204, 205), Color3.fromRGB(0, 255, 0)} -- You can continue to add colors here.
+	 
+while true do
+    for i = 0,1,0.01 do
+        MainColour = Color3.fromHSV(i,1,1)
+        wait(0.1)
+    end
+end
+
 local NotificationTheme = {
+    
 	-- // Theme Colours
-	local colors = {Color3.fromRGB(0, 204, 205), Color3.fromRGB(0, 255, 0)}
-	while true do
-		for i = 0,1,0.01 do
-			MainColour = Color3.fromHSV(i,1,1)
-			wait(0.1)
-		end
-	end
+	
+	BackgroundColour = Color3.fromRGB(25, 25, 25),
+	SecondaryBackgroundColour = Color3.fromRGB(15, 15, 15),
+	Success = Color3.fromRGB(119, 221, 119),
+	Error = Color3.fromRGB(255, 150, 150),
+	Alert = Color3.fromRGB(253, 253, 150),
+	
 	BackgroundColour = Color3.fromRGB(25, 25, 25),
 	SecondaryBackgroundColour = Color3.fromRGB(15, 15, 15),
 	Success = Color3.fromRGB(119, 221, 119),
