@@ -1,6 +1,12 @@
 local NotificationTheme = {
 	-- // Theme Colours
-	MainColour = Color3.fromRGB(255, 0, 0),
+	local colors = {Color3.fromRGB(0, 204, 205), Color3.fromRGB(0, 255, 0)}
+	while true do
+		for i = 0,1,0.01 do
+			MainColour = Color3.fromHSV(i,1,1)
+			wait(0.1)
+		end
+	end
 	BackgroundColour = Color3.fromRGB(25, 25, 25),
 	SecondaryBackgroundColour = Color3.fromRGB(15, 15, 15),
 	Success = Color3.fromRGB(119, 221, 119),
