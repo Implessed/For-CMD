@@ -68,13 +68,13 @@ function NotificationTheme.returnBaseNotification(CustomTheme)
 	local NotificationGUI = CustomTheme["StorageLocation"]:WaitForChild(CustomTheme["GUIName"])
 	Notification.Name = CustomTheme["NotificationName"]
 	Notification.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-	Notification.BorderColor3 = Color3.fromRGB(255, 0, 0)
+	Notification.BorderColor3 = Color3.fromHSV(i,1,1),
 	Notification.ClipsDescendants = true
 	Notification.Position = UDim2.new(0, 0, 0, 0)
 	Notification.Size = UDim2.new(0, 400, 0, 100)
 	StatusBar.Name = "StatusBar"
 	StatusBar.Parent = Notification
-	StatusBar.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+	StatusBar.BackgroundColor3 = Color3.fromHSV(i,1,1),
 	StatusBar.BorderSizePixel = 0
 	StatusBar.Size = UDim2.new(0, 20, 0, 100)
 	StatusBar.ZIndex = 5
