@@ -1,11 +1,10 @@
 local colors = {Color3.fromRGB(0, 204, 205), Color3.fromRGB(0, 255, 0)} -- You can continue to add colors here.
 
 
-while true do
-    for i = 0,1,0.01 do
-        wait(0.1)
-    end
+i = 0,1,0.01 do
+    wait(0.1)
 end
+
 
 local NotificationTheme = {
 	-- // Theme Colours
