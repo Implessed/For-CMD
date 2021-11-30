@@ -1,8 +1,9 @@
-local hue = tick() % t / t 
 local NotificationTheme = {
     
+    hue = tick() % t / t 
+    
 	-- // Theme Colours
-	MainColour = Color3.fromRGB(25, 25, 25),
+	MainColour = Color3.fromHSV(hue, 1, 1),
 	BackgroundColour = Color3.fromRGB(25, 25, 25),
 	SecondaryBackgroundColour = Color3.fromRGB(15, 15, 15),
 	Success = Color3.fromRGB(119, 221, 119),
